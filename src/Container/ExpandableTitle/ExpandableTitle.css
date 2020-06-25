@@ -1,0 +1,11 @@
+.pStyle {
+   color: rgba(62, 184, 78, 0.856);;
+   text-align: center;
+   margin-left: 250px;
+
+
+}
+
+.pStyle:hover{
+    color:  #ccc;
+}

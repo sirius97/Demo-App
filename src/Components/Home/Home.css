@@ -1,0 +1,22 @@
+.style {
+    float: left;
+    display : block;
+    margin-left: 500px;
+    overflow-x: auto;
+}
+
+.styleDiv{
+    text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+    .styleDiv{
+        float: none;
+        display: block;
+        margin-left: 0px;
+    }
+
+    .style{
+        display: block;
+    }
+}
