@@ -1,6 +1,7 @@
 {
   "name": "test_app",
   "version": "0.1.0",
+  "homepage": "https://sirius97.github.io/Demo-App/",
   "private": true,
   "dependencies": {
     "enzyme": "^3.11.0",
@@ -16,7 +17,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
